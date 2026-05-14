@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emotions Summary"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#070606"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="25dp"/>
+
+        <!-- card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="18dp"
+            android:elevation="6dp">
+
+            <!-- rows -->
+            <include layout="@layout/item_emotion" android:id="@+id/happyRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/excitedRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/angryRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/sadRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/scaredRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/motivatedRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/sickRow"/>
+            <include layout="@layout/item_emotion" android:id="@+id/shyRow"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
