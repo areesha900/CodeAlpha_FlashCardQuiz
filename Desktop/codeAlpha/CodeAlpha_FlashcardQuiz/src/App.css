@@ -1,0 +1,35 @@
+.app-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141f51 0%);
+  padding: 2rem 1rem;
+}
+
+.app-container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.app-subtitle {
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  margin-top: 2px;
+}
