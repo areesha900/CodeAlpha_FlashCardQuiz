@@ -42,8 +42,3 @@ src/
 │   ├── CardModal.js     # Add/Edit modal form
 │   └── CardList.js      # Scrollable list of all cards
 ```
-
-## Built By
-
-**Areesha Yaseen** — CodeAlpha Intern (App Development)  
-Student ID: CA/DF1/148857
