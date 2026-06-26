@@ -8,7 +8,7 @@ A flashcard quiz app built with React.js as part of the **CodeAlpha App Developm
 - ➕ **Add cards** — create custom flashcards with your own Q&A
 - ✏️ **Edit cards** — update any existing card anytime
 - 🗑️ **Delete cards** — remove cards you no longer need
-- ⬅️➡️ **Navigate** — Previous/Next buttons to move between cards
+- ⬅️ **Navigate** — Previous/Next buttons to move between cards
 - 🔀 **Shuffle** — randomize card order for better practice
 - 🔁 **Restart** — reset progress and start from the beginning
 - 📊 **Progress tracking** — see how many cards you've seen
@@ -30,15 +30,3 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 - CSS3 (flip animation with `transform-style: preserve-3d`)
 - localStorage for data persistence
 
-## Project Structure
-
-```
-src/
-├── App.js               # Root component & state management
-├── components/
-│   ├── Flashcard.js     # Card with flip animation
-│   ├── Navigation.js    # Prev/Next/Shuffle/Restart controls
-│   ├── StatsBar.js      # Total/Seen/Remaining stats
-│   ├── CardModal.js     # Add/Edit modal form
-│   └── CardList.js      # Scrollable list of all cards
-```
