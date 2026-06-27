@@ -21,7 +21,6 @@ A flashcard quiz app built with React.js as part of the **CodeAlpha App Developm
 
 ## Screenshots
 <img width="370" height="436" alt="image" src="https://github.com/user-attachments/assets/fbb32c1f-d0d4-414a-ab67-d217e457bd98" />
-<img width="377" height="433" alt="image" src="https://github.com/user-attachments/assets/f78df140-1246-4d3b-8538-aab9a433dd1a" />
 <img width="380" height="425" alt="image" src="https://github.com/user-attachments/assets/780ddb70-2d45-4043-ba98-fcfdba23b905" />
 
 ---
